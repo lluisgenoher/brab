@@ -1,0 +1,62 @@
+
+body {
+    margin-top: 3em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    height:100%;
+}
+.active_auction{
+    margin-left: 2em;
+    color: black;
+    padding: 2em;
+    align-items: center;
+}
+footer {  
+    color: white;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 3em;
+    padding: 1em;
+
+ }
+ .verticalLine {
+    border-left: thick solid #ffffff;
+  }
+  .wallet{
+    height: 8rem;
+    color: black;
+    margin-bottom: 3em;
+  }
+ 
+  #listBitcoinsBought, #listActiveAuctions{
+    width: 18rem; 
+    margin-right: 1em;
+    
+  }
+  #divBitcoins{
+    height: 870px;
+  }
+
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  display: none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
